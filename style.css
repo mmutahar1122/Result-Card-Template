@@ -1,0 +1,91 @@
+#Main-Container{
+    /* width: 80%; */
+    position: relative;
+    margin: 0px 0px 0px 0px;
+    padding: 0px;
+    /* border: 2px solid gray; */
+
+}
+h1{
+    /* font-size: 30px; */
+  /* display: flex; */
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: flex;   
+    justify-content: center;
+}
+h2{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: flex;   
+    justify-content: center;
+}
+#myTable{
+    width: 100%;
+    position: relative;
+    margin: auto;
+    border-collapse: collapse;
+    border: 2px solid black;
+    overflow-x: scroll;
+}
+#myTable tr{
+    vertical-align: inherit;
+    justify-content: start;
+}
+ #myTable tr th{
+     text-align: start;
+    padding: 10px;
+    background-color: black;
+    border-left: 1px solid grey;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+    #myTable tr td{
+    border-bottom: 1px solid black;
+    border-left: 1px solid grey;
+    padding: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+#myTable tr:nth-child(even){
+    background:#f2efef ;
+}
+/* .personal-info{
+    position: relative;
+    margin-left: 10%;
+
+} */
+#notification{
+    /* margin-left: 10%; */
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+/* #notification-container{
+    display: ;
+} */
+#err-omiss{
+    float: right;
+    /* margin-right: 11%; */
+}
+#buttons{
+    float: right;
+    /* margin-right: 10%; */
+}
+#recheck-btn{
+    background: rgb(0, 149, 255);
+    color: white;
+    padding: 10px;
+    border-radius: 0.5rem;
+}
+#go-back-btn{
+    padding: 10px;
+    background: none;
+    border: 2px solid black;
+    border-radius: 0.5rem;
+
+}
+@media only screen and (max-width : 660px){
+    h1{
+        font-size: 25px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: flex;   
+    justify-content: center;
+    }
+}
